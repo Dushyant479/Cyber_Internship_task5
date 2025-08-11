@@ -3,7 +3,7 @@ Task 5 – Network Traffic Capture and Protocol Analysis with Wireshark
 Capture and analyze live network traffic using Wireshark, identify at least three different network protocols, and document your findings with explanations and screenshots.
 
 2. Tools & Environment
-Operating System: e.g., Windows 11, Kali Linux
+Operating System: Kali Linux
 
 Tool Used: Wireshark
 
@@ -11,11 +11,11 @@ Tool Used: Wireshark
 3.1 Start a Packet Capture
 Opened Wireshark and started a capture session on the main network interface.
 
-![Wireshark Live Capture](Screenshot-2025-08-11-210002.jpg Network Traffic
+![Wireshark Live Capture](/screenshots/screenshot2.png) Network Traffic
 
 Generated traffic by pinging websites (e.g., ping google.com), browsing, or using network utilities.
 
-![Kali Ping Session](Screenshot-2025-08-11-205737.jpg Filtering
+![Kali Ping Session](screenshots/screenshot1.png) Filtering
 
 Used Wireshark's filter bar to isolate traffic for specific protocols (e.g., udp, dns, icmp).
 
@@ -27,9 +27,9 @@ UDP	Connectionless transport protocol	DNS, SSDP, NTP, and LAN sync traffic
 Example protocol-specific screenshots
 DNS Traffic:
 
-![DNS Packets](Screenshot-2025-08-11-205944.jpg:**
+![DNS Packets](screenshots/screenshot3.png)
 
-![ICMP Ping Packets](Screenshot-2025-08-11-210121.jpg Protocol Descriptions
+![ICMP Ping Packets](screenshots/screenshot4.png) Protocol Descriptions
 
 DNS (Domain Name System):
 Converts readable domain names (like google.com) into IP addresses. Captured as queries and responses over UDP port 53.
@@ -50,7 +50,8 @@ Understanding these protocols is foundational for troubleshooting and cybersecur
 7. Appendix
 Screenshots: Included above in each section for clarity.
 
-Packet Capture File: (Optional) Attach your .pcap file if needed for review.
+Packet Capture File: 
+[Captured File](ping.pcapng)
 
 Wireshark Tips:
 
